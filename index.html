@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" media="all" />
+    <script src="./script.js"></script>
+    <title>JOGO DA VELHA</title>
+</head>
+<body>
+    <section class="corpo">
+
+        <p class="conteudo">É A VEZ DO</p>
+        <h1 class="conteudo" id="letra">X</h1>
+
+        <div>
+            <button onclick="Jogada(this.id,0); verificaJogada();" id='quadrado0' style="width: 100px; height: 100px;">_</button>
+            <button onclick="Jogada(this.id,1); verificaJogada();" id='quadrado1' style="width: 100px; height: 100px;">_</button>
+            <button onclick="Jogada(this.id,2); verificaJogada();" id='quadrado2' style="width: 100px; height: 100px;">_</button>
+        </div>
+
+        <div>
+            <button onclick="Jogada(this.id,3); verificaJogada();" id='quadrado3' style="width: 100px; height: 100px;">_</button>
+            <button onclick="Jogada(this.id,4); verificaJogada();" id='quadrado4' style="width: 100px; height: 100px;">_</button>
+            <button onclick="Jogada(this.id,5); verificaJogada();" id='quadrado5' style="width: 100px; height: 100px;">_</button>
+        </div>
+
+        <div>
+            <button onclick="Jogada(this.id,6); verificaJogada();" id='quadrado6' style="width: 100px; height: 100px;">_</button>
+            <button onclick="Jogada(this.id,7); verificaJogada();" id='quadrado7' style="width: 100px; height: 100px;">_</button>
+            <button onclick="Jogada(this.id,8); verificaJogada();" id='quadrado8' style="width: 100px; height: 100px;">_</button>
+        </div>
+            <button onclick="zerar()" id='quadrado8' style="width: 308px; height: 50px;">Resetar jogo</button>
+    </section>
+</body>
+</html>
