@@ -19,7 +19,7 @@ function Jogada(quadradoN,n){
             letra = "X";     
         }
     }
- verificaJogada();
+    setTimeout(verificaJogada, 500);
 }
 
 function verificaJogada(){
@@ -39,14 +39,10 @@ function verificaJogada(){
 
     for(i = 0; i <= 8; i++){
         if(verificaVencedor[i] == 1){
-            alert("Jogador 1 (X) é o vencedor, parabéns!");  
-            zerar();             
-        }else{
-            if(verificaVencedor[i] == 8){
-                alert("Jogador 2 (O) é o vencedor, parabéns!");  
-                zerar();  
-            }
-        } 
+            alert("Jogador 1 (X) é o vencedor, parabéns!");              
+        }else if(verificaVencedor[i] == 8){
+            alert("Jogador 2 (O) é o vencedor, parabéns!");
+        }
     }
 }
 
