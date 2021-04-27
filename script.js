@@ -19,7 +19,6 @@ function Jogada(quadradoN,n){
             letra = "X";     
         }
     }
- verificaJogada();
 }
 
 function verificaJogada(){
