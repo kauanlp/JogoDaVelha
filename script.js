@@ -19,7 +19,7 @@ function Jogada(quadradoN,n){
             letra = "X";     
         }
     }
-    timer = setTimeout(verificaJogada, 500);
+    setTimeout(verificaJogada, 500);
 }
 
 function verificaJogada(){
